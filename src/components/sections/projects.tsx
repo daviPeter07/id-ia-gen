@@ -5,8 +5,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { PROJECTS } from "@/lib/constants";
+} from "@/src/components/ui/card";
+import { PROJECTS } from "@/src/lib/constants";
 
 export function ProjectsSection() {
   return (
@@ -28,7 +28,7 @@ export function ProjectsSection() {
               className="bg-secondary/30 border-border hover:border-primary/50 transition-all duration-300 overflow-hidden group"
             >
               <CardHeader>
-                <div className="w-full h-40 bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg mb-4 flex items-center justify-center">
+                <div className="w-full h-40 bg-linear-to-br from-primary/20 to-accent/20 rounded-lg mb-4 flex items-center justify-center">
                   <Sparkles className="w-12 h-12 text-primary/50 group-hover:text-primary transition-colors" />
                 </div>
                 <CardTitle>{project.title}</CardTitle>

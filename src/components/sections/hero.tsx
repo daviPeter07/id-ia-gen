@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Lightbulb } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
+import logo from "@/public/logo.png";
 
 export function HeroSection() {
   return (
@@ -45,7 +46,7 @@ export function HeroSection() {
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full" />
               <Image
-                src="/images/logo.png"
+                src={logo}
                 alt="Ide'IA Logo"
                 width={400}
                 height={400}

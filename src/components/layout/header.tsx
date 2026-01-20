@@ -4,8 +4,9 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { NAV_LINKS } from "@/lib/constants";
-import { cn } from "@/lib/utils";
+import { NAV_LINKS } from "@/src/lib/constants";
+import { cn } from "@/src/lib/utils";
+import logo from "@/public/logo.png";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Link href="#inicio" className="flex items-center gap-2">
             <Image
-              src="/images/logo.png"
+              src={logo}
               alt="Ide'IA Logo"
               width={40}
               height={40}

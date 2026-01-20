@@ -4,8 +4,8 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { SERVICES } from "@/lib/constants";
+} from "@/src/components/ui/card";
+import { SERVICES } from "@/src/lib/constants";
 
 export function ServicesSection() {
   return (

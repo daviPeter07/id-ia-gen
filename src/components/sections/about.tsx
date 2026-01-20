@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react";
-import { STATS, FEATURES } from "@/lib/constants";
+import { STATS, FEATURES } from "@/src/lib/constants";
 
 export function AboutSection() {
   return (
@@ -32,7 +32,7 @@ export function AboutSection() {
             <ul className="space-y-3">
               {FEATURES.map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
-                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-accent shrink-0" />
                   <span>{feature}</span>
                 </li>
               ))}

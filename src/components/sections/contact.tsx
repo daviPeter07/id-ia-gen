@@ -3,18 +3,19 @@
 import React from "react"
 
 import { Mail, MessageSquare, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/src/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
-import { CONTACT_EMAIL } from "@/lib/constants";
+} from "@/src/components/ui/card";
+import { Input } from "@/src/components/ui/input";
+import { Textarea } from "@/src/components/ui/textarea";
+import { Label } from "@/src/components/ui/label";
+import { CONTACT_EMAIL } from "@/src/lib/constants";
+import { toast } from "@/src/hooks/use-toast";
 
 export function ContactSection() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -23,8 +24,21 @@ export function ContactSection() {
     const subject = formData.get("subject") as string;
     const message = formData.get("message") as string;
     const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
 
-    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Nome: ${name}\n\n${message}`)}`;
+    console.log("Contato enviado:", {
+      name,
+      email,
+      subject,
+      message,
+      to: CONTACT_EMAIL,
+    });
+
+    toast.success("Mensagem enviada!", {
+      description: "Obrigado pelo contato. Em breve retornaremos.",
+    });
+
+    e.currentTarget.reset();
   };
 
   return (
@@ -144,7 +158,7 @@ interface ContactInfoProps {
 function ContactInfo({ icon: Icon, label, value, href }: ContactInfoProps) {
   const content = (
     <>
-      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
         <Icon className="w-5 h-5 text-primary" />
       </div>
       <div>

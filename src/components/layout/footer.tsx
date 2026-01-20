@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
-import { CONTACT_EMAIL } from "@/lib/constants";
+import { CONTACT_EMAIL } from "@/src/lib/constants";
+import logo from "@/public/logo.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <Link href="#inicio" className="flex items-center gap-2">
             <Image
-              src="/images/logo.png"
+              src={logo}
               alt="Ide'IA Logo"
               width={32}
               height={32}

@@ -1,11 +1,11 @@
-import { Header, Footer } from "@/components/layout";
+import { Header, Footer } from "@/src/components/layout";
 import {
   HeroSection,
   AboutSection,
   ServicesSection,
   ProjectsSection,
   ContactSection,
-} from "@/components/sections";
+} from "@/src/components/sections";
 
 export default function Home() {
   return (
