@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Transformamos ideias em solucoes inteligentes com IA. Startup focada em inovacao e tecnologia de ponta.",
   keywords: ["IA", "Inteligencia Artificial", "Startup", "Inovacao", "Tecnologia"],
   authors: [{ name: "Ide'IA" }],
+  verification: {
+    google: "QCwL2kdPhzGVa6_naa0ybd_t1yIOCv8HaI4Fq1QZe6o",
+  },
   openGraph: {
     title: "Ide'IA - Inteligencia Artificial & Inovacao",
     description: "Transformamos ideias em solucoes inteligentes com IA.",
