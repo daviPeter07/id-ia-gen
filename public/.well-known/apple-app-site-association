@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["75NBSP6WX5.com.indicai.app"],
+        "components": [
+          { "/": "/*" }
+        ]
+      }
+    ]
+  }
+}
