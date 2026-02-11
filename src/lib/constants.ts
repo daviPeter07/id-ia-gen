@@ -37,10 +37,11 @@ export const SERVICES = [
 
 export const PROJECTS = [
   {
-    title: "Assistente Virtual Inteligente",
+    title: "Indicai",
     description:
-      "Chatbot com processamento de linguagem natural para atendimento ao cliente 24/7.",
-    tags: ["NLP", "Machine Learning", "Chatbot"],
+      "Plataforma digital para divulgacao de profissionais e conexao com contratantes, com politica de privacidade dedicada.",
+    tags: ["App", "Marketplace", "LGPD"],
+    href: "/indicai/politica-de-privacidade",
   },
   {
     title: "Sistema de Analise Preditiva",
