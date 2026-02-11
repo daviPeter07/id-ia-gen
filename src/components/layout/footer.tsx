@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Mail } from "lucide-react";
 import { CONTACT_EMAIL } from "@/src/lib/constants";
@@ -28,15 +28,25 @@ export function Footer() {
             &copy; {currentYear} Ide{"'"}IA. Todos os direitos reservados.
           </p>
 
-          <Link
-            href={`mailto:${CONTACT_EMAIL}`}
-            className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-secondary"
-            aria-label="Enviar email"
-          >
-            <Mail className="w-5 h-5" />
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              href="/indicai"
+              className="text-sm text-muted-foreground hover:text-primary transition-colors px-3 py-2 rounded-lg hover:bg-secondary"
+            >
+              Secao Indicaí
+            </Link>
+
+            <Link
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-secondary"
+              aria-label="Enviar email"
+            >
+              <Mail className="w-5 h-5" />
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
   );
 }
+

@@ -1,4 +1,4 @@
-import { Header, Footer } from "@/src/components/layout";
+﻿import { Header, Footer } from "@/src/components/layout";
 import {
   HeroSection,
   AboutSection,
@@ -17,7 +17,7 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
         <ProjectsSection />
-         <IndicaiSection />
+        <IndicaiSection />
         <ContactSection />
       </main>
       <Footer />
