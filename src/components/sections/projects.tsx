@@ -1,4 +1,5 @@
 import { Sparkles } from "lucide-react";
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -47,6 +48,14 @@ export function ProjectsSection() {
                     </span>
                   ))}
                 </div>
+                {project.href ? (
+                  <Link
+                    href={project.href}
+                    className="inline-flex mt-4 text-sm text-primary hover:underline"
+                  >
+                    Ver politica de privacidade
+                  </Link>
+                ) : null}
               </CardContent>
             </Card>
           ))}
