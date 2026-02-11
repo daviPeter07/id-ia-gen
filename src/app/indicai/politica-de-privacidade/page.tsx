@@ -6,17 +6,15 @@ export const metadata: Metadata = {
   description: "Politica de Privacidade do aplicativo Ide'IA.",
 };
 
-const policyText = String.raw`POLÍTICA DE PRIV ACIDADE DO 
-APLICATIVO INDICAI 
-1. IDENTIFICAÇÃO DO CONTROLADOR 
-A PLATAFORMA INDICAI, pessoa jurídica de direito privado, inscrita no CNPJ nº 
+const policyText = String.raw`POLÍTICA DE PRIVACIDADE DO APLICATIVO INDICAI 
+
+1. IDENTIFICAÇÃO DO CONTROLADOR A PLATAFORMA INDICAI, pessoa jurídica de direito privado, inscrita no CNPJ nº 
 13.595.545/0001-30, com sede na cidade de Manaus, Estado do Amazonas, operada por 
 FIGUEIREDO E CORREA LTDA., doravante denominada “INDICAI”, é a 
 responsável pelo tratamento dos dados pessoais, nos termos da Lei nº 13.709/2018 (Lei 
 Geral de Proteção de Dados Pessoais – LGPD). 
  
-2. FINALIDADE DO APLICATIVO 
-O INDICAI é uma plataforma digital de divulgação de contatos e informações 
+2. FINALIDADE DO APLICATIVO INDICAI é uma plataforma digital de divulgação de contatos e informações 
 profissionais, funcionando como um catálogo eletrônico (“páginas amarelas digitais”), 
 permitindo a aproximação entre PROFISSIONAIS ANUNCIANTES e USUÁRIOS 
 CONTRATANTES, sem atuar como intermediador, gestor, empregador ou executor 
@@ -56,8 +54,7 @@ Os dados pessoais coletados são utilizados exclusivamente para:
 - Garantir segurança, prevenção a fraudes e integridade da plataforma; 
 - Cumprir obrigações legais e regulatórias. 
  
-5. BASE LEGAL PARA O TRATAMENTO DOS 
-DADOS 
+5. BASE LEGAL PARA O TRATAMENTO DOS DADOS 
 O tratamento de dados pessoais realizado pela PLATAFORMA INDICAI ocorre com 
 fundamento nas seguintes bases legais previstas na Lei nº 13.709/2018 (LGPD): 
 I – Execução de contrato ou de procedimentos preliminares (art. 7º, V), uma vez que 
@@ -109,8 +106,7 @@ O INDICAI é disponibilizado por meio das plataformas:
 Essas plataformas podem coletar dados técnicos e estatísticos relacionados à instalação, 
 atualização e uso do aplicativo, conforme suas próprias políticas de privacidade. 
  
-8. TRANSFERÊNCIA INTERNACIONAL DE 
-DADOS 
+8. TRANSFERÊNCIA INTERNACIONAL DE DADOS 
 Em razão da utilização de serviços de tecnologia e infraestrutura, os dados pessoais 
 poderão ser armazenados ou processados em servidores localizados fora do Brasil, 
 observadas as garantias legais e as medidas de segurança exigidas pela LGPD. 
@@ -137,8 +133,7 @@ Nos termos da LGPD, o usuário poderá, a qualquer momento:
 - Revogar consentimentos, quando aplicável; 
 - Solicitar informações sobre compartilhamento. 
  
-12. EXCLUSÃO DE CONTA E RETENÇÃO DE 
-DADOS ESSENCIAIS 
+12. EXCLUSÃO DE CONTA E RETENÇÃO DE DADOS ESSENCIAIS 
 O usuário poderá solicitar, a qualquer momento, a exclusão de sua conta na 
 PLATAFORMA INDICAI. 
 A exclusão da conta implicará a remoção definitiva de todos os dados pessoais, 
@@ -164,8 +159,7 @@ Os dados pessoais serão mantidos apenas pelo tempo necessário ao cumprimento d
 finalidades desta Política ou de obrigações legais, sendo posteriormente excluídos ou 
 anonimizados. 
  
-15. ALTERAÇÕES NA POLÍTICA DE 
-PRIVACIDADE 
+15. ALTERAÇÕES NA POLÍTICA DE PRIVACIDADE 
 Esta Política poderá ser atualizada a qualquer momento. A versão vigente estará sempre 
 disponível no aplicativo ou no site oficial do INDICAI. 
  
@@ -173,9 +167,8 @@ disponível no aplicativo ou no site oficial do INDICAI.
 Para dúvidas, solicitações ou exercício de direitos previstos na LGPD, entre em contato: 
 indicaistartup@gmail.com 
  
- 
 Termos em que, pede e espera deferimento. 
-Manaus, 10 de fevereiro de 2026. 
+Ultima Verão: 10/02/2026 
 MINELLI LOUREIRO DE FIGUEIREDO FILHO 
 EXECUTIVO DA INDICAÍ`;
 
