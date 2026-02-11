@@ -104,8 +104,8 @@ segurança da informação e proteção de dados.
  
 7.3. Distribuição do Aplicativo 
 O INDICAI é disponibilizado por meio das plataformas: 
- Google Play Store (Google LLC); 
- Apple App Store (Apple Inc.). 
+- Google Play Store (Google LLC); 
+- Apple App Store (Apple Inc.). 
 Essas plataformas podem coletar dados técnicos e estatísticos relacionados à instalação, 
 atualização e uso do aplicativo, conforme suas próprias políticas de privacidade. 
  
@@ -123,8 +123,6 @@ Cada Profissional Anunciante é responsável por cumprir a legislação de prote
 dados no tratamento das informações de seus clientes. 
  
 10. SEGURANÇA DA INFORMAÇÃO 
-
-
  
 A PLATAFORMA adota medidas técnicas e organizacionais razoáveis para proteger os 
 dados pessoais contra acessos não autorizados, vazamentos, perdas, alterações ou usos 
