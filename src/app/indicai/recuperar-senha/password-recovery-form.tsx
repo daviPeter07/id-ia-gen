@@ -66,6 +66,7 @@ export function PasswordRecoveryForm() {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [errors, setErrors] = useState<FormErrors>({});
+  const [debugMessage, setDebugMessage] = useState("");
 
   const hasToken = useMemo(() => token.trim().length > 0, [token]);
 
@@ -90,6 +91,7 @@ export function PasswordRecoveryForm() {
     if (Object.keys(validationErrors).length > 0) return;
 
     setSubmitting(true);
+    setDebugMessage("");
     try {
       const baseUrl = getApiBaseUrl();
       const endpoint = `${baseUrl}/api/auth/reset-password`;
@@ -111,13 +113,31 @@ export function PasswordRecoveryForm() {
       };
 
       if (!response.ok) {
-        throw new Error(data.error || data.message || "Falha ao redefinir senha.");
+        throw new Error(
+          data.error || data.message || `Falha ao redefinir senha (HTTP ${response.status}).`
+        );
       }
 
       toast.success(data.message || "Senha redefinida com sucesso.");
       router.push("/");
     } catch (error) {
-      toast.error(error instanceof Error ? error.message : "Erro ao redefinir senha.");
+      const baseUrl = getApiBaseUrl();
+      const endpoint = `${baseUrl}/api/auth/reset-password`;
+      const message = error instanceof Error ? error.message : "Erro ao redefinir senha.";
+
+      if (message.toLowerCase().includes("failed to fetch")) {
+        setDebugMessage(
+          `Falha de rede ao chamar ${endpoint}. Verifique se o backend está online e se o CORS permite esta origem.`
+        );
+      } else {
+        setDebugMessage(`Erro da API: ${message}`);
+      }
+
+      console.error("Password reset error", {
+        endpoint,
+        message,
+      });
+      toast.error(message);
     } finally {
       setSubmitting(false);
     }
@@ -212,6 +232,10 @@ export function PasswordRecoveryForm() {
               Voltar para inicio
             </Button>
           </div>
+
+          {debugMessage ? (
+            <p className="text-xs text-destructive break-all">{debugMessage}</p>
+          ) : null}
         </form>
       </CardContent>
     </Card>
