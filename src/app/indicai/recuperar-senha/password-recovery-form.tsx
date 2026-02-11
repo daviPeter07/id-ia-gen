@@ -53,7 +53,8 @@ function isValidCpf(cpf: string): boolean {
 }
 
 function getApiBaseUrl(): string {
-  return "http://192.168.0.95:5000";
+  const envUrl = process.env.NEXT_PUBLIC_API_BASE_URL?.trim();
+  return envUrl && envUrl.length > 0 ? envUrl.replace(/\/$/, "") : "";
 }
 
 export function PasswordRecoveryForm() {
