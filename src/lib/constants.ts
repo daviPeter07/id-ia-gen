@@ -1,4 +1,4 @@
-import { Brain, Code, Rocket, Sparkles } from "lucide-react";
+﻿import { Brain, Code, Rocket, Sparkles } from "lucide-react";
 
 export const NAV_LINKS = [
   { name: "Inicio", href: "#inicio" },
@@ -42,6 +42,7 @@ export const PROJECTS = [
       "Plataforma digital para divulgacao de profissionais e conexao com contratantes, com politica de privacidade dedicada.",
     tags: ["App", "Marketplace", "LGPD"],
     href: "/indicai/politica-de-privacidade",
+    image: "/indicai-logo.jpeg",
   },
   {
     title: "Sistema de Analise Preditiva",
@@ -72,3 +73,4 @@ export const FEATURES = [
 ] as const;
 
 export const CONTACT_EMAIL = "ideiagenstartup@gmail.com";
+

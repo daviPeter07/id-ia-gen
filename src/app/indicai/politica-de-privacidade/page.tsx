@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { BackToHomeButton } from "./back-to-home-button";
 
 export const metadata: Metadata = {
   title: "Politica de Privacidade | Ide'IA",
@@ -25,39 +25,36 @@ dos serviços ofertados.
 3. DADOS PESSOAIS COLETADOS 
 3.1. Dados fornecidos voluntariamente pelos usuários 
 Profissionais Anunciantes: 
- Nome completo ou razão social; 
- CPF ou CNPJ; 
- Telefone e endereço de e-mail; 
- Área de atuação profissional; 
- Localização; 
- Descrição dos serviços oferecidos; 
- Fotografias, vídeos, logotipos, imagens, voz e demais conteúdos inseridos no 
+- Nome completo ou razão social; 
+- CPF ou CNPJ; 
+- Telefone e endereço de e-mail; 
+- Área de atuação profissional; 
+- Localização; 
+- Descrição dos serviços oferecidos; 
+- Fotografias, vídeos, logotipos, imagens, voz e demais conteúdos inseridos no 
 perfil. 
 Usuários Contratantes: 
- Nome; 
- Telefone e/ou endereço de e-mail; 
-
-
- 
- Informações necessárias para contato e solicitação de serviços. 
+- Nome; 
+- Telefone e/ou endereço de e-mail; 
+- Informações necessárias para contato e solicitação de serviços. 
  
 3.2. Dados coletados automaticamente 
 O aplicativo poderá coletar dados técnicos de forma automática e, sempre que possível, 
 anonimizada, tais como: 
- Tipo de dispositivo; 
- Sistema operacional; 
- Endereço IP; 
- Registros de acesso, falhas e desempenho. 
+- Tipo de dispositivo; 
+- Sistema operacional; 
+- Endereço IP; 
+- Registros de acesso, falhas e desempenho. 
  
 4. FINALIDADE DO TRATAMENTO DOS DADOS 
 Os dados pessoais coletados são utilizados exclusivamente para: 
- Permitir o funcionamento do aplicativo; 
- Viabilizar o cadastro e manutenção de contas; 
- Divulgar perfis profissionais; 
- Possibilitar o contato direto entre usuários; 
- Processar pagamentos de planos e serviços, quando aplicável; 
- Garantir segurança, prevenção a fraudes e integridade da plataforma; 
- Cumprir obrigações legais e regulatórias. 
+- Permitir o funcionamento do aplicativo; 
+- Viabilizar o cadastro e manutenção de contas; 
+- Divulgar perfis profissionais; 
+- Possibilitar o contato direto entre usuários; 
+- Processar pagamentos de planos e serviços, quando aplicável; 
+- Garantir segurança, prevenção a fraudes e integridade da plataforma; 
+- Cumprir obrigações legais e regulatórias. 
  
 5. BASE LEGAL PARA O TRATAMENTO DOS 
 DADOS 
@@ -71,8 +68,6 @@ II – Legítimo interesse do controlador (art. 7º, IX), para garantir a segura
 plataforma, prevenir fraudes, evitar uso indevido de benefícios, melhorar a experiência 
 do usuário e proteger direitos da PLATAFORMA; 
 
-
- 
 III – Cumprimento de obrigação legal ou regulatória (art. 7º, II), quando aplicável; 
 IV – Consentimento do titular (art. 7º, I), nos casos em que a legislação exigir 
 autorização específica. 
@@ -84,11 +79,11 @@ Os dados dos Profissionais Anunciantes são exibidos publicamente aos Usuários
 Contratantes, conforme a finalidade do aplicativo. 
 O INDICAI não vende, aluga ou comercializa dados pessoais, podendo compartilhá-
 los apenas: 
- Para cumprimento de obrigação legal ou ordem judicial; 
- Com prestadores de serviços tecnológicos essenciais ao funcionamento da 
+- Para cumprimento de obrigação legal ou ordem judicial; 
+- Com prestadores de serviços tecnológicos essenciais ao funcionamento da 
 plataforma; 
- Com serviços de pagamento; 
- Mediante consentimento do titular, quando exigido por lei. 
+- Com serviços de pagamento; 
+- Mediante consentimento do titular, quando exigido por lei. 
  
 7. USO DE SERVIÇOS DE TERCEIROS 
 7.1. Processamento de Pagamentos 
@@ -101,11 +96,9 @@ de privacidade e segurança.
 7.2. Hospedagem e Infraestrutura Tecnológica 
 O aplicativo utiliza serviços de hospedagem e infraestrutura de terceiros, incluindo, mas 
 não se limitando a: 
-
-
- 
- Railway – hospedagem de servidores e backend; 
- Neon Database – banco de dados e armazenamento de informações. 
+- Railway – hospedagem de servidores e backend; 
+- Neon Database – banco de dados e armazenamento de informações.
+- Cloudflare R2 - armazenamento de arquivos e conteúdos. 
 Esses provedores atuam como operadores de dados, adotando padrões adequados de 
 segurança da informação e proteção de dados. 
  
@@ -139,12 +132,12 @@ indevidos.
  
 11. DIREITOS DOS TITULARES 
 Nos termos da LGPD, o usuário poderá, a qualquer momento: 
- Confirmar a existência de tratamento de dados; 
- Acessar seus dados pessoais; 
- Solicitar correção ou atualização; 
- Solicitar anonimização ou exclusão; 
- Revogar consentimentos, quando aplicável; 
- Solicitar informações sobre compartilhamento. 
+- Confirmar a existência de tratamento de dados; 
+- Acessar seus dados pessoais; 
+- Solicitar correção ou atualização; 
+- Solicitar anonimização ou exclusão; 
+- Revogar consentimentos, quando aplicável; 
+- Solicitar informações sobre compartilhamento. 
  
 12. EXCLUSÃO DE CONTA E RETENÇÃO DE 
 DADOS ESSENCIAIS 
@@ -156,16 +149,13 @@ as hipóteses legais de retenção mínima.
 No caso de PROFISSIONAIS ANUNCIANTES, a PLATAFORMA poderá reter 
 exclusivamente os dados mínimos de identificação, consistentes em nome completo 
 e CPF, com a finalidade de: 
- Prevenir fraudes; 
- Impedir o reingresso indevido para obtenção de benefícios, promoções ou planos 
+- Prevenir fraudes; 
+- Impedir o reingresso indevido para obtenção de benefícios, promoções ou planos 
 já expirados; 
- Cumprir obrigações legais e regulatórias. 
+- Cumprir obrigações legais e regulatórias. 
 Esses dados serão armazenados de forma restrita, segura e proporcional, nos termos dos 
 arts. 7º e 16 da LGPD, não sendo utilizados para fins comerciais ou publicitários. 
- 
-
-
- 
+  
 13. USO DE IMAGEM, VOZ E CONTEÚDO 
 Ao publicar conteúdos no aplicativo, o usuário declara possuir autorização para uso de 
 imagens, vídeos, voz e dados de terceiros, concedendo licença de uso ao INDICAI nos 
@@ -183,7 +173,7 @@ disponível no aplicativo ou no site oficial do INDICAI.
  
 16. CANAL DE CONTATO 
 Para dúvidas, solicitações ou exercício de direitos previstos na LGPD, entre em contato: 
-긼긽긾긿김깂깁  [E-MAIL DE CONTATO DA PLATAFORMA] 
+indicaistartup@gmail.com 
  
  
 Termos em que, pede e espera deferimento. 
@@ -196,14 +186,12 @@ export default function PrivacyPolicyPage() {
     <main className="min-h-screen bg-background text-foreground pt-24 pb-16 px-4">
       <div className="container mx-auto max-w-4xl space-y-8">
         <header className="space-y-2">
-          <Link
-            href="/"
-            className="inline-flex text-sm text-muted-foreground hover:text-primary transition-colors"
-          >
-            Voltar para o inicio
-          </Link>
           <h1 className="text-3xl md:text-4xl font-bold">Politica de Privacidade</h1>
         </header>
+
+        <div>
+          <BackToHomeButton />
+        </div>
 
         <article className="rounded-xl border border-border bg-card p-6 md:p-8">
           <pre className="whitespace-pre-wrap break-words text-sm md:text-base text-muted-foreground leading-relaxed font-sans">
