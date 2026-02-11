@@ -4,6 +4,7 @@ import {
   AboutSection,
   ServicesSection,
   ProjectsSection,
+  IndicaiSection,
   ContactSection,
 } from "@/src/components/sections";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <AboutSection />
         <ServicesSection />
         <ProjectsSection />
+         <IndicaiSection />
         <ContactSection />
       </main>
       <Footer />
