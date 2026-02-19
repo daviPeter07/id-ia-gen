@@ -59,12 +59,22 @@ export function ProjectsSection() {
                   ))}
                 </div>
                 {project.href ? (
-                  <Link
-                    href={project.href}
-                    className="inline-flex mt-4 text-sm text-primary hover:underline"
-                  >
-                    Ver politica de privacidade
-                  </Link>
+                  <div className="mt-4 flex flex-col gap-2">
+                    <Link
+                      href={project.href}
+                      className="inline-flex text-sm text-primary hover:underline"
+                    >
+                      Ver politica de privacidade
+                    </Link>
+                    {project.title === "Indicai" ? (
+                      <Link
+                        href="/indicai/cadastro-usuario"
+                        className="inline-flex text-sm text-primary hover:underline"
+                      >
+                        Ver cadastro de usuario
+                      </Link>
+                    ) : null}
+                  </div>
                 ) : null}
               </CardContent>
             </Card>
