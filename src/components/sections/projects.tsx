@@ -66,7 +66,7 @@ export function ProjectsSection() {
                     >
                       Ver politica de privacidade
                     </Link>
-                    {project.title === "Indicai" ? (
+                    {project.showCadastroLink ? (
                       <Link
                         href="/indicai/cadastro-usuario"
                         className="inline-flex text-sm text-primary hover:underline"

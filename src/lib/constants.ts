@@ -37,12 +37,13 @@ export const SERVICES = [
 
 export const PROJECTS = [
   {
-    title: "Indicai",
+    title: "IndicMe",
     description:
       "Plataforma digital para divulgacao de profissionais e conexao com contratantes, com politica de privacidade dedicada.",
     tags: ["App", "Marketplace", "LGPD"],
     href: "/indicai/politica-de-privacidade",
     image: "/indicai-logo.jpeg",
+    showCadastroLink: true,
   },
   {
     title: "Sistema de Analise Preditiva",

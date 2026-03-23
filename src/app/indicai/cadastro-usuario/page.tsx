@@ -5,8 +5,8 @@ import { buttonVariants } from "@/src/components/ui/button";
 import { cn } from "@/src/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Cadastro de Usuario | Indicaí",
-  description: "Video demonstrando o cadastro de usuario no Indicaí.",
+  title: "Cadastro de Usuario | IndicMe",
+  description: "Video demonstrando o cadastro de usuario no IndicMe.",
 };
 
 const cadastroVideoUrl = process.env.NEXT_PUBLIC_INDICAI_CADASTRO_VIDEO_URL?.trim();
@@ -33,7 +33,7 @@ export default function IndicaiCadastroUsuarioPage() {
         <header className="space-y-2">
           <h1 className="text-3xl md:text-4xl font-bold">Cadastro de usuario</h1>
           <p className="text-muted-foreground">
-            Video demonstrando o passo a passo do cadastro no Indicaí.
+            Video demonstrando o passo a passo do cadastro no IndicMe.
           </p>
         </header>
 
@@ -45,7 +45,7 @@ export default function IndicaiCadastroUsuarioPage() {
                 className="w-full h-[240px] md:h-[420px] rounded-lg border border-border bg-black"
                 allow="autoplay"
                 allowFullScreen
-                title="Video de cadastro no Indicaí"
+                title="Video de cadastro no IndicMe"
               />
             ) : (
               <video
@@ -71,7 +71,7 @@ export default function IndicaiCadastroUsuarioPage() {
             className={cn(buttonVariants({ variant: "outline" }), "inline-flex")}
           >
             <ArrowLeft className="h-4 w-4" />
-            Voltar para secao Indicaí
+            Voltar para seção IndicMe
           </Link>
         </div>
       </div>

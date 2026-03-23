@@ -1,10 +1,10 @@
-﻿# IndicAI - Guia de Uso para Revisao (App Store)
+﻿# IndicMe - Guia de Uso para Revisao (App Store)
 
 ## 1. Resumo do aplicativo
-O IndicAI conecta clientes a profissionais de serviçcos, permitindo busca, visualizacãoo de perfil, contato e avaliacao.
+O IndicMe conecta clientes a profissionais de serviçcos, permitindo busca, visualizacãoo de perfil, contato e avaliacao.
 
 ## 2. Metadados para revisao
-- Nome do app: IndicAI
+- Nome do app: IndicMe
 - Bundle ID iOS: `com.indicai.app`
 - Dominio web: `https://ideia-gen.vercel.app`
 - Versao enviada: preencher no envio

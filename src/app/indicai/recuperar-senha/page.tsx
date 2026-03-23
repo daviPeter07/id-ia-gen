@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import { PasswordRecoveryForm } from "./password-recovery-form";
 
 export const metadata: Metadata = {
-  title: "Recuperacao de Senha | Indicai",
-  description: "Redefina a senha da sua conta Indicai.",
+  title: "Recuperacao de Senha | IndicMe",
+  description: "Redefina a senha da sua conta IndicMe.",
 };
 
 export default function PasswordRecoveryPage() {

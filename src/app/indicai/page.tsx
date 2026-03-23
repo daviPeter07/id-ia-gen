@@ -5,8 +5,8 @@ import { buttonVariants } from "@/src/components/ui/button";
 import { cn } from "@/src/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Secao Indicaí | Ide'IA",
-  description: "Area com as paginas do Indicaí.",
+  title: "Secao indicMe | Ide'IA",
+  description: "Area com as paginas do IndicMe.",
 };
 
 export default function IndicaiPage() {
@@ -14,7 +14,7 @@ export default function IndicaiPage() {
     <main className="min-h-screen bg-background text-foreground pt-24 pb-16 px-4">
       <div className="container mx-auto max-w-4xl space-y-8">
         <header className="space-y-2">
-          <h1 className="text-3xl md:text-4xl font-bold">Secao Indicaí</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">Secao IndicMe</h1>
           <p className="text-muted-foreground">Acesse as paginas do aplicativo.</p>
         </header>
 

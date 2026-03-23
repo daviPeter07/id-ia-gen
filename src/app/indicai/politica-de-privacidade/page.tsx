@@ -6,15 +6,15 @@ export const metadata: Metadata = {
   description: "Politica de Privacidade do aplicativo Ide'IA.",
 };
 
-const policyText = String.raw`POLÍTICA DE PRIVACIDADE DO APLICATIVO INDICAI 
+const policyText = String.raw`POLÍTICA DE PRIVACIDADE DO APLICATIVO INDICME 
 
-1. IDENTIFICAÇÃO DO CONTROLADOR A PLATAFORMA INDICAI, pessoa jurídica de direito privado, inscrita no CNPJ nº 
+1. IDENTIFICAÇÃO DO CONTROLADOR A PLATAFORMA INDICME, pessoa jurídica de direito privado, inscrita no CNPJ nº 
 13.595.545/0001-30, com sede na cidade de Manaus, Estado do Amazonas, operada por 
-FIGUEIREDO E CORREA LTDA., doravante denominada “INDICAI”, é a 
+FIGUEIREDO E CORREA LTDA., doravante denominada INDICME, é a 
 responsável pelo tratamento dos dados pessoais, nos termos da Lei nº 13.709/2018 (Lei 
 Geral de Proteção de Dados Pessoais – LGPD). 
  
-2. FINALIDADE DO APLICATIVO INDICAI é uma plataforma digital de divulgação de contatos e informações 
+2. FINALIDADE DO APLICATIVO INDICME é uma plataforma digital de divulgação de contatos e informações 
 profissionais, funcionando como um catálogo eletrônico (“páginas amarelas digitais”), 
 permitindo a aproximação entre PROFISSIONAIS ANUNCIANTES e USUÁRIOS 
 CONTRATANTES, sem atuar como intermediador, gestor, empregador ou executor 
@@ -55,7 +55,7 @@ Os dados pessoais coletados são utilizados exclusivamente para:
 - Cumprir obrigações legais e regulatórias. 
  
 5. BASE LEGAL PARA O TRATAMENTO DOS DADOS 
-O tratamento de dados pessoais realizado pela PLATAFORMA INDICAI ocorre com 
+O tratamento de dados pessoais realizado pela PLATAFORMA INDICME ocorre com 
 fundamento nas seguintes bases legais previstas na Lei nº 13.709/2018 (LGPD): 
 I – Execução de contrato ou de procedimentos preliminares (art. 7º, V), uma vez que 
 a coleta e o tratamento de dados são indispensáveis para o cadastro dos usuários, a 
@@ -69,12 +69,12 @@ III – Cumprimento de obrigação legal ou regulatória (art. 7º, II), quando 
 IV – Consentimento do titular (art. 7º, I), nos casos em que a legislação exigir 
 autorização específica. 
 A coleta de dados limita-se ao estritamente necessário para a execução dos serviços 
-aos quais o usuário aderiu ao aceitar os Termos de Uso do INDICAI. 
+aos quais o usuário aderiu ao aceitar os Termos de Uso do INDICME. 
  
 6. COMPARTILHAMENTO DE DADOS 
 Os dados dos Profissionais Anunciantes são exibidos publicamente aos Usuários 
 Contratantes, conforme a finalidade do aplicativo. 
-O INDICAI não vende, aluga ou comercializa dados pessoais, podendo compartilhá-
+O INDICME não vende, aluga ou comercializa dados pessoais, podendo compartilhá-
 los apenas: 
 - Para cumprimento de obrigação legal ou ordem judicial; 
 - Com prestadores de serviços tecnológicos essenciais ao funcionamento da 
@@ -84,7 +84,7 @@ plataforma;
  
 7. USO DE SERVIÇOS DE TERCEIROS 
 7.1. Processamento de Pagamentos 
-Para viabilizar pagamentos de planos e serviços, o INDICAI utiliza a plataforma 
+Para viabilizar pagamentos de planos e serviços, o INDICME utiliza a plataforma 
 Mercado Pago. 
 Os dados financeiros e bancários não são armazenados pela PLATAFORMA, sendo 
 tratados exclusivamente pelo provedor de pagamento, conforme suas próprias políticas 
@@ -100,7 +100,7 @@ Esses provedores atuam como operadores de dados, adotando padrões adequados de
 segurança da informação e proteção de dados. 
  
 7.3. Distribuição do Aplicativo 
-O INDICAI é disponibilizado por meio das plataformas: 
+O INDICME é disponibilizado por meio das plataformas: 
 - Google Play Store (Google LLC); 
 - Apple App Store (Apple Inc.). 
 Essas plataformas podem coletar dados técnicos e estatísticos relacionados à instalação, 
@@ -112,7 +112,7 @@ poderão ser armazenados ou processados em servidores localizados fora do Brasil
 observadas as garantias legais e as medidas de segurança exigidas pela LGPD. 
  
 9. RESPONSABILIDADE PELO USO DOS DADOS 
-O INDICAI não se responsabiliza pelo tratamento de dados pessoais realizado por 
+O INDICME não se responsabiliza pelo tratamento de dados pessoais realizado por 
 Anunciantes e Contratantes fora do ambiente da plataforma, inclusive durante 
 negociações, contatos diretos e execução dos serviços. 
 Cada Profissional Anunciante é responsável por cumprir a legislação de proteção de 
@@ -135,7 +135,7 @@ Nos termos da LGPD, o usuário poderá, a qualquer momento:
  
 12. EXCLUSÃO DE CONTA E RETENÇÃO DE DADOS ESSENCIAIS 
 O usuário poderá solicitar, a qualquer momento, a exclusão de sua conta na 
-PLATAFORMA INDICAI. 
+PLATAFORMA INDICME. 
 A exclusão da conta implicará a remoção definitiva de todos os dados pessoais, 
 incluindo informações de perfil, conteúdos publicados e histórico de uso, ressalvadas 
 as hipóteses legais de retenção mínima. 
@@ -151,7 +151,7 @@ arts. 7º e 16 da LGPD, não sendo utilizados para fins comerciais ou publicitá
   
 13. USO DE IMAGEM, VOZ E CONTEÚDO 
 Ao publicar conteúdos no aplicativo, o usuário declara possuir autorização para uso de 
-imagens, vídeos, voz e dados de terceiros, concedendo licença de uso ao INDICAI nos 
+imagens, vídeos, voz e dados de terceiros, concedendo licença de uso ao INDICME nos 
 limites da finalidade da plataforma. 
  
 14. RETENÇÃO E EXCLUSÃO DOS DADOS 
@@ -161,7 +161,7 @@ anonimizados.
  
 15. ALTERAÇÕES NA POLÍTICA DE PRIVACIDADE 
 Esta Política poderá ser atualizada a qualquer momento. A versão vigente estará sempre 
-disponível no aplicativo ou no site oficial do INDICAI. 
+disponível no aplicativo ou no site oficial do INDICME. 
  
 16. CANAL DE CONTATO 
 Para dúvidas, solicitações ou exercício de direitos previstos na LGPD, entre em contato: 
