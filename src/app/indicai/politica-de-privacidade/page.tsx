@@ -170,7 +170,7 @@ indicaistartup@gmail.com
 Termos em que, pede e espera deferimento. 
 Ultima Verão: 10/02/2026 
 MINELLI LOUREIRO DE FIGUEIREDO FILHO 
-EXECUTIVO DA INDICAÍ`;
+EXECUTIVO DA INDICME`;
 
 export default function PrivacyPolicyPage() {
   return (
